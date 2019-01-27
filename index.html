@@ -1,76 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>StartUP</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="Startup.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-
-
-<!-- Optional theme -->
-	 
-
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-				<a class="navbar-brand" href="#">
-				Purrfect Match
-				</a>
-			</div>
-	      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-			<div>
-
-				<ul class="nav  navbar-nav">
-				 <li class="active"><a href="">HOME</a></li>
-				 <li><a href="">About</a></li>
-				 <li><a href="">Contect</a></li>
-				</ul>
-				
-			</div>
-			<div class="nav navbar-nav navbar-right">
-				<ul class="nav navbar-nav navbar-right">
-					 
-					<li><a href="">Signup <i class="fa fa-user-plus"></i></a></li>
-					<li><a href="">Login <i class="fa fa-user"></i></a></li>
-					 
-				</ul>
-				
-			</div>
-		 </div>
-		</div>
-	</nav>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div id="content">
-					<h1>Purrfect Match</h1>
-					<h3> The Only Human-Feling Dating App</h3>
-					<hr>
-					<button class="btn btn-default btn-lg"> <i class="fa fa-paw fa-fw"></i> Get Strated!</button>
-					
-				</div>
-				
-			</div>
-		</div>
-	</div>
-
-
-	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <div class="container">
+    <div class="span3 well">
+        <center>
+        <a href="#aboutModal" data-toggle="modal" data-target="#myModal"><img src="https://lh3.googleusercontent.com/-prbLcYKVxck/Wvf5QkLU16I/AAAAAAAACPU/lncoTmY1QGwDdBE58al1e2yNjoEelp3gwCEwYBhgL/w140-h140-p/WhatsApp%2BImage%2B2018-05-08%2Bat%2B12.56.09%2BPM.jpeg=" name="aboutme" width="140" height="140" class="img-circle"></a>
+        <h3>Vineet Kumar </h3>
+        <em>Click My For More Detail</em>
+        </center>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="myModalLabel">More About Vineet </h4>
+                    </div>
+                <div class="modal-body">
+                    <center>
+                    <img src="https://lh3.googleusercontent.com/-prbLcYKVxck/Wvf5QkLU16I/AAAAAAAACPU/lncoTmY1QGwDdBE58al1e2yNjoEelp3gwCEwYBhgL/w140-h140-p/WhatsApp%2BImage%2B2018-05-08%2Bat%2B12.56.09%2BPM.jpeg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                    <h3 class="media-heading">Vineet Kumar <small>INDIA</small></h3>
+                    <span><strong>Skills: </strong></span>
+                        <span class="label label-warning">HTML5/CSS</span>
+                        <span class="label label-warning">CORE JAVA</span>
+                        <span class="label label-warning">JAVAFX</span>
+                        <span class="label label-warning">Python</span>
+                        <span class="label label-info">Adobe CS 5.5</span>
+                        <span class="label label-info">Microsoft Office</span>
+                        <span class="label label-success">Windows XP, Vista, 7,8,10,Ubuntu</span>
+                    </center>
+                    <hr>
+                    <center>
+                    <p class="text-left"><strong>Bio: </strong><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+                    <br>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Vineet</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+    
 </body>
 </html>
